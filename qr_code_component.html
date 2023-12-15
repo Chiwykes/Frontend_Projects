@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+<style>
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', serif;
+    text-align: center;
+
+}
+#cardbox{
+    width: 275px;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+}
+#qrcode{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.header{
+    margin-bottom: 15px;
+    padding: 5px;
+    color: hsl(218, 44%, 22%);
+}
+.text{
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding: 10px;
+}
+@media (width <= 500px) {
+    #cardbox{
+        width: 80vw;
+        height: fit-content;
+        padding: 20px;
+        
+    }
+    .header{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .text{
+        padding: 10px 20px 10px 20px;
+    }
+
+}
+</style>
+</head>
+<body>
+<!-- background
+card box
+pic
+textbox -->
+<div id="cardbox">
+<img src="image-qr-code.png" id="qrcode">
+<h3 class="header">Improve your front-end skills by building projects</h3>
+<p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+</div>
+    
+</body>
+</html>
