@@ -23,7 +23,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![Alt text](./desktop-view_qrcomponent.jpeg)
 ![Alt text](./mobile-view_qrcomponent.jpeg)
 
+### Links
 
+
+[Solution](qr_code_qrcomponent.html)
 ## My process
 
 ### Built with
